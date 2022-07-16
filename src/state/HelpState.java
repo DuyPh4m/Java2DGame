@@ -16,7 +16,7 @@ public class HelpState extends State{
     private Graphics graphicsPaint;
 	private int currentChoice = -1;
 		
-	private Font font = new Font("Arial", Font.PLAIN, 20);
+	private Font font = new Font("Arial", Font.PLAIN, 40);
 	private String[] options = {
 			"Menu",
 			"Quit"
@@ -40,7 +40,7 @@ public class HelpState extends State{
             return;
         }
 
-        Image help = Toolkit.getDefaultToolkit().getImage("data/helpState.png");
+        Image help = Toolkit.getDefaultToolkit().getImage("data/backg2.jpg");
         graphicsPaint.drawImage(help, 0, 0, GameFrame.SCREEN_WIDTH, GameFrame.SCREEN_HEIGHT, null);
 		graphicsPaint.setFont(font);
 		for(int i = 0; i < options.length; i++) {
@@ -49,7 +49,7 @@ public class HelpState extends State{
 			} else {
 				graphicsPaint.setColor(Color.BLUE);
 			}
-			graphicsPaint.drawString(options[i], GameFrame.SCREEN_WIDTH/2 - 30, 495 + i * 30);
+			graphicsPaint.drawString(options[i], GameFrame.SCREEN_WIDTH/2 - 100, 270 + i * 65);
 		}
     }
     

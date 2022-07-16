@@ -17,15 +17,14 @@ public class MenuState extends State {
     private Graphics graphicsPaint;
 	private int currentChoice = -1;
 	
-	private Image image = Toolkit.getDefaultToolkit().getImage("data/backg.png");
+	private Image image = Toolkit.getDefaultToolkit().getImage("data/backg2.jpg");
 	
-	private Color titleColor = new Color(255, 0, 0);
-	private Font titleFont = new Font("Century Gothic", Font.PLAIN, 120);
+	private Color titleColor = new Color(100, 150, 255);
+	private Font titleFont = new Font("Century Gothic", Font.PLAIN, 100);
 	private Font font = new Font("Arial", Font.PLAIN, 40);
 	private String[] options = {
 			"Start",
 			"Help",
-			"About Us",
 			"Quit"
 		};
 		
@@ -111,10 +110,6 @@ public class MenuState extends State {
                 break;
                 
             case 2:
-            	gamePanel.setState(new AboutUsState(gamePanel)); 
-                break;
-                
-            case 3: 
             	System.exit(1);
             	break;
         }

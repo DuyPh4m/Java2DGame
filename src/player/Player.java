@@ -30,7 +30,7 @@ public class Player extends Human {
     private int numberOfLife;
     private int currentDame;
     public Player(float x, float y, GameWorldState gameWorld) {
-        super(x, y, 40, 40, 300, gameWorld);
+        super(x, y, 60, 60, 300, gameWorld);
         int temp = LevelState.getCurrentChoice();
     	if (temp == 1){ 
     		setBlood(200);
@@ -70,7 +70,7 @@ public class Player extends Human {
     public void Update() {
         super.Update();        
         heal();
-        System.out.println(getPosX() + ", " + getPosY());
+        // System.out.println(getPosX() + ", " + getPosY());
         if(isAttack) {
         	if(System.nanoTime() - lastAttackTime > 500*1000000) {		
         		isAttack = false;
@@ -244,7 +244,7 @@ public class Player extends Human {
             Sword sword = new Sword(getPosX(), getPosY(), getGameWorld());
             sword.setDamage(currentDame);
             if(sword != null) {
-            	System.out.println("Count = " + getGameWorld().getParticularObjectManager().getCount() + "***" + "currDame = " + currentDame);
+            	System.out.println("Count = " + getGameWorld().getParticularObjectManager().getCount() + "\n" + "currDame = " + currentDame);
             }
             if(getDirection() == LEFT_DIR) {
             	sword.setPosX(sword.getPosX() - 5);
