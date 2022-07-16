@@ -1,0 +1,288 @@
+41
+
+tiled0
+image data/tiled.png
+x 53
+y 41
+w 50
+h 50
+
+tiled1
+image data/tiled.png
+x 122
+y 42
+w 50
+h 50
+
+tiled2
+image data/tiled.png
+x 197
+y 43
+w 50
+h 50
+
+tiled3
+image data/tiled.png
+x 275
+y 44
+w 50
+h 50
+
+tiled4
+image data/tiled.png
+x 349
+y 44
+w 50
+h 50
+
+tiled5
+image data/tiled.png
+x 429
+y 45
+w 50
+h 50
+
+tiled6
+image data/tiled.png
+x 505
+y 45
+w 50
+h 50
+
+tiled7
+image data/tiled.png
+x 582
+y 45
+w 50
+h 50
+
+tiled8
+image data/tiled.png
+x 664
+y 46
+w 50
+h 50
+
+tiled9
+image data/tiled.png
+x 750
+y 47
+w 50
+h 50
+
+tiled10
+image data/tiled.png
+x 52
+y 118
+w 50
+h 50
+
+tiled11
+image data/tiled.png
+x 123
+y 118
+w 50
+h 50
+
+tiled12
+image data/tiled.png
+x 196
+y 118
+w 50
+h 50
+
+tiled13
+image data/tiled.png
+x 275
+y 118
+w 50
+h 50
+
+tiled14
+image data/tiled.png
+x 350
+y 117
+w 50
+h 50
+
+tiled15
+image data/tiled.png
+x 429
+y 117
+w 50
+h 50
+
+tiled16
+image data/tiled.png
+x 505
+y 118
+w 50
+h 50
+
+tiled17
+image data/tiled.png
+x 584
+y 117
+w 50
+h 50
+
+tiled18
+image data/tiled.png
+x 666
+y 117
+w 50
+h 50
+
+tiled19
+image data/tiled.png
+x 749
+y 117
+w 50
+h 50
+
+tiled20
+image data/tiled.png
+x 52
+y 197
+w 50
+h 50
+
+tiled21
+image data/tiled.png
+x 123
+y 197
+w 50
+h 50
+
+tiled22
+image data/tiled.png
+x 196
+y 199
+w 50
+h 50
+
+tiled23
+image data/tiled.png
+x 278
+y 199
+w 50
+h 50
+
+tiled24
+image data/tiled.png
+x 351
+y 199
+w 50
+h 50
+
+tiled25
+image data/tiled.png
+x 430
+y 199
+w 50
+h 50
+
+tiled26
+image data/tiled.png
+x 506
+y 198
+w 50
+h 50
+
+tiled27
+image data/tiled.png
+x 584
+y 197
+w 50
+h 50
+
+tiled28
+image data/tiled.png
+x 666
+y 194
+w 50
+h 50
+
+tiled29
+image data/tiled.png
+x 750
+y 196
+w 50
+h 50
+
+tiled30
+image data/tiled.png
+x 52
+y 274
+w 50
+h 50
+
+tiled31
+image data/tiled.png
+x 121
+y 274
+w 50
+h 50
+
+tiled32
+image data/tiled.png
+x 195
+y 276
+w 50
+h 50
+
+tiled33
+image data/tiled.png
+x 278
+y 276
+w 50
+h 50
+
+tiled34
+image data/tiled.png
+x 352
+y 276
+w 50
+h 50
+
+tiled35
+image data/tiled.png
+x 431
+y 277
+w 50
+h 50
+
+tiled36
+image data/tiled.png
+x 505
+y 277
+w 50
+h 50
+
+tiled37
+image data/tiled.png
+x 584
+y 277
+w 50
+h 50
+
+tiled38
+image data/tiled.png
+x 667
+y 275
+w 50
+h 50
+
+tiled39
+image data/tiled.png
+x 750
+y 275
+w 50
+h 50
+
+tiled40
+image data/tiled.png
+x 51
+y 352
+w 50
+h 50

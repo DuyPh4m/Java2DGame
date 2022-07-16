@@ -1,0 +1,321 @@
+99
+player_atkleft
+data/player/player_049.png 120000000 data/player/player_050.png 120000000 data/player/player_051.png 120000000 data/player/player_052.png 120000000 data/player/player_053.png 120000000 data/player/player_054.png 120000000 data/player/player_055.png 120000000 data/player/player_009.png 120000000
+
+player_atkright
+data/player/player_048.png 120000000 data/player/player_047.png 120000000 data/player/player_046.png 120000000 data/player/player_045.png 120000000 data/player/player_044.png 120000000 data/player/player_043.png 120000000 data/player/player_042.png 120000000 data/player/player_001.png 120000000
+
+player_atkup
+data/player/player_065.png 120000000 data/player/player_066.png 120000000 data/player/player_067.png 120000000 data/player/player_068.png 120000000 data/player/player_069.png 120000000 data/player/player_070.png 120000000 data/player/player_071.png 120000000 data/player/player_072.png 120000000
+
+player_atkdown
+data/player/player_057.png 120000000 data/player/player_058.png 120000000 data/player/player_059.png 120000000 data/player/player_060.png 120000000 data/player/player_061.png 120000000 data/player/player_062.png 120000000 data/player/player_063.png 120000000 data/player/player_064.png 120000000
+
+player_atkleft_2
+data/player/atkleft1.png 200000000 data/player/atkleft2.png 200000000 data/player/atkleft3.png 200000000
+
+player_atkright_2
+data/player/atkright1.png 200000000 data/player/atkright2.png 200000000 data/player/atkright3.png 200000000
+
+player_atkup_2
+data/player/atkup1.png 200000000 data/player/atkup2.png 200000000 data/player/atkup3.png 200000000
+
+player_atkdown_2
+data/player/atkdown1.png 200000000 data/player/atkdown2.png 200000000 data/player/atkdown3.png 200000000
+
+player_runleft
+data/player/player_009.png 120000000 data/player/player_010.png 120000000 data/player/player_011.png 120000000 data/player/player_012.png 120000000 data/player/player_013.png 120000000 data/player/player_014.png 120000000 data/player/player_015.png 120000000 data/player/player_016.png 120000000
+
+player_runright
+data/player/player_001.png 120000000 data/player/player_002.png 120000000 data/player/player_003.png 120000000 data/player/player_004.png 120000000 data/player/player_005.png 120000000 data/player/player_006.png 120000000 data/player/player_007.png 120000000 data/player/player_008.png 120000000
+
+player_runup
+data/player/player_025.png 120000000 data/player/player_026.png 120000000 data/player/player_027.png 120000000 data/player/player_028.png 120000000 data/player/player_029.png 120000000 data/player/player_030.png 120000000 data/player/player_031.png 120000000 data/player/player_032.png 120000000
+
+player_rundown
+data/player/player_017.png 120000000 data/player/player_018.png 120000000 data/player/player_019.png 120000000 data/player/player_020.png 120000000 data/player/player_021.png 120000000 data/player/player_022.png 120000000 data/player/player_023.png 120000000 data/player/player_024.png 120000000
+
+
+player_idleleft
+data/player/player_009.png 120000000
+
+player_idleright
+data/player/player_001.png 120000000
+
+player_idleup
+data/player/player_025.png 120000000
+
+player_idledown
+data/player/player_017.png 120000000
+
+player_death
+data/player/player_009.png 120000000 data/player/player_049.png 120000000 data/player/player_050.png 120000000 data/player/player_051.png 120000000 data/player/player_052.png 120000000 data/player/player_053.png 120000000 data/player/player_054.png 120000000 data/player/player_055.png 120000000
+
+
+
+newboss_idler
+data/enemies/boss/newboss_idleright_1.png 300000000 data/enemies/boss/newboss_idleright_2.png 300000000
+
+newboss_flyr
+data/enemies/boss/bossfly5.png 200000000 data/enemies/boss/bossfly1.png 200000000 data/enemies/boss/bossfly2.png 200000000 data/enemies/boss/bossfly3.png 200000000 data/enemies/boss/bossfly4.png 200000000
+
+newboss_atkright1
+data/enemies/boss/newboss_atkright00.png 200000000 data/enemies/boss/newboss_atkright01.png 200000000 data/enemies/boss/newboss_atkright02.png 200000000 data/enemies/boss/newboss_atkright03.png 200000000 data/enemies/boss/newboss_atkright04.png 200000000 data/enemies/boss/newboss_atkright05.png 200000000
+
+newboss_atkright2
+data/enemies/boss/newboss_atkright1.png 200000000 data/enemies/boss/newboss_atkright2.png 200000000 data/enemies/boss/newboss_atkright3.png 200000000 data/enemies/boss/newboss_atkright4.png 200000000 data/enemies/boss/newboss_atkright5.png 200000000 data/enemies/boss/newboss_atkright6.png 200000000
+
+newboss_deathr
+data/enemies/boss/death1.png 300000000 data/enemies/boss/death2.png 300000000 data/enemies/boss/death3.png 300000000 data/enemies/boss/death4.png 300000000 data/enemies/boss/death5.png 300000000
+
+newboss_tiepdatr
+data/enemies/boss/bossfly1.png 300000000 data/enemies/boss/bossfly5.png 300000000 data/enemies/boss/bossfly6.png 300000000 data/enemies/boss/newboss_idleright_1.png 300000000 data/enemies/boss/newboss_idleright_2.png 300000000
+
+newboss_tiepdatl
+data/enemies/boss/bossfly1l.png 300000000 data/enemies/boss/bossfly5l.png 300000000 data/enemies/boss/bossfly6l.png 300000000 data/enemies/boss/newboss_idleright_1l.png 300000000 data/enemies/boss/newboss_idleright_2l.png 300000000
+
+newboss_idlel
+data/enemies/boss/newboss_idleright_1l.png 300000000 data/enemies/boss/newboss_idleright_2l.png 300000000
+
+newboss_flyl
+data/enemies/boss/bossfly5l.png 200000000 data/enemies/boss/bossfly1l.png 200000000 data/enemies/boss/bossfly2l.png 200000000 data/enemies/boss/bossfly3l.png 200000000 data/enemies/boss/bossfly4l.png 200000000
+
+newboss_atkleft1
+data/enemies/boss/newboss_atkright00l.png 200000000 data/enemies/boss/newboss_atkright01l.png 200000000 data/enemies/boss/newboss_atkright02l.png 200000000 data/enemies/boss/newboss_atkright03l.png 200000000 data/enemies/boss/newboss_atkright04l.png 200000000 data/enemies/boss/newboss_atkright05l.png 200000000
+
+newboss_atkleft2
+data/enemies/boss/newboss_atkright1l.png 200000000 data/enemies/boss/newboss_atkright2l.png 200000000 data/enemies/boss/newboss_atkright3l.png 200000000 data/enemies/boss/newboss_atkright4l.png 200000000 data/enemies/boss/newboss_atkright5l.png 200000000 data/enemies/boss/newboss_atkright6l.png 200000000
+
+newboss_deathl
+data/enemies/boss/death1l.png 300000000 data/enemies/boss/death2l.png 300000000 data/enemies/boss/death3l.png 300000000 data/enemies/boss/death4l.png 300000000 data/enemies/boss/death5l.png 300000000
+
+
+bull_attackleft
+data/enemies/bull/boss_037.png 120000000 data/enemies/bull/boss_038.png 120000000 data/enemies/bull/boss_039.png 120000000 data/enemies/bull/boss_040.png 120000000 data/enemies/bull/boss_007.png 120000000
+
+bull_attackright
+data/enemies/bull/boss_031.png 120000000 data/enemies/bull/boss_032.png 120000000 data/enemies/bull/boss_033.png 120000000 data/enemies/bull/boss_034.png 120000000 data/enemies/bull/boss_001.png 120000000
+
+bull_attackup
+data/enemies/bull/boss_049.png 120000000 data/enemies/bull/boss_050.png 120000000 data/enemies/bull/boss_051.png 120000000 data/enemies/bull/boss_052.png 120000000 data/enemies/bull/boss_019.png 120000000
+
+bull_attackdown
+data/enemies/bull/boss_043.png 120000000 data/enemies/bull/boss_044.png 120000000 data/enemies/bull/boss_045.png 120000000 data/enemies/bull/boss_046.png 120000000 data/enemies/bull/boss_013.png 120000000
+
+
+bull_runleft
+data/enemies/bull/boss_007.png 120000000 data/enemies/bull/boss_008.png 120000000 data/enemies/bull/boss_009.png 120000000 data/enemies/bull/boss_010.png 120000000 data/enemies/bull/boss_011.png 120000000 data/enemies/bull/boss_012.png 120000000
+
+bull_runright
+data/enemies/bull/boss_001.png 120000000 data/enemies/bull/boss_002.png 120000000 data/enemies/bull/boss_003.png 120000000 data/enemies/bull/boss_004.png 120000000 data/enemies/bull/boss_005.png 120000000 data/enemies/bull/boss_006.png 120000000
+
+bull_runup
+data/enemies/bull/boss_019.png 120000000 data/enemies/bull/boss_020.png 120000000 data/enemies/bull/boss_021.png 120000000 data/enemies/bull/boss_022.png 120000000
+
+bull_rundown
+data/enemies/bull/boss_013.png 120000000 data/enemies/bull/boss_014.png 120000000 data/enemies/bull/boss_015.png 120000000 data/enemies/bull/boss_016.png 120000000
+
+
+bull_idleup
+data/enemies/bull/boss_019.png 120000000
+
+bull_idledown
+data/enemies/bull/boss_013.png 120000000
+
+bull_idleleft
+data/enemies/bull/boss_001.png 120000000
+
+bull_idleright
+data/enemies/bull/boss_007.png 120000000
+
+bull_death
+data/enemies/bull/boss_025.png 120000000 data/enemies/bull/boss_026.png 120000000 data/enemies/bull/boss_027.png 120000000 data/enemies/bull/boss_028.png 120000000 data/enemies/bull/boss_029.png 120000000 data/enemies/bull/boss_030.png 120000000
+
+
+
+
+enemy1_idleleft
+data/enemies/enemy1/littlegirl_005.png 120000000
+
+enemy1_idleright
+data/enemies/enemy1/littlegirl_001.png 120000000
+
+enemy1_idleup
+data/enemies/enemy1/littlegirl_013.png 120000000
+
+enemy1_idledown
+data/enemies/enemy1/littlegirl_009.png 120000000
+
+
+enemy1_atkleft
+data/enemies/enemy1/littlegirl_005.png 120000000
+
+enemy1_atkright
+data/enemies/enemy1/littlegirl_001.png 120000000
+
+enemy1_atkup
+data/enemies/enemy1/littlegirl_013.png 120000000
+
+enemy1_atkdown
+data/enemies/enemy1/littlegirl_009.png 120000000
+
+
+enemy1_runleft
+data/enemies/enemy1/littlegirl_005.png 120000000 data/enemies/enemy1/littlegirl_006.png 120000000 data/enemies/enemy1/littlegirl_007.png 120000000 data/enemies/enemy1/littlegirl_008.png 120000000
+
+enemy1_runright
+data/enemies/enemy1/littlegirl_001.png 120000000 data/enemies/enemy1/littlegirl_002.png 120000000 data/enemies/enemy1/littlegirl_003.png 120000000 data/enemies/enemy1/littlegirl_004.png 120000000
+
+enemy1_runup
+data/enemies/enemy1/littlegirl_013.png 120000000 data/enemies/enemy1/littlegirl_014.png 120000000 data/enemies/enemy1/littlegirl_015.png 120000000 data/enemies/enemy1/littlegirl_016.png 120000000
+
+enemy1_rundown
+data/enemies/enemy1/littlegirl_009.png 120000000 data/enemies/enemy1/littlegirl_010.png 120000000 data/enemies/enemy1/littlegirl_011.png 120000000 data/enemies/enemy1/littlegirl_011.png 120000000
+
+
+
+
+
+
+
+enemy2_idleleft
+data/enemies/enemy2/pipyaka_04.png 120000000
+
+enemy2_idleright
+data/enemies/enemy2/pipyaka_10.png 120000000
+
+enemy2_idleup
+data/enemies/enemy2/pipyaka_07.png 120000000
+
+enemy2_idledown
+data/enemies/enemy2/pipyaka_01.png 120000000
+
+
+enemy2_rotate_lefttoup
+data/enemies/enemy2/pipyaka_04.png 120000000 data/enemies/enemy2/pipyaka_05.png 120000000 data/enemies/enemy2/pipyaka_06.png 120000000 data/enemies/enemy2/pipyaka_07.png 120000000
+
+enemy2_rotate_lefttodown
+data/enemies/enemy2/pipyaka_04.png 120000000 data/enemies/enemy2/pipyaka_03.png 120000000 data/enemies/enemy2/pipyaka_02.png 120000000 data/enemies/enemy2/pipyaka_01.png 120000000
+
+enemy2_rotate_righttoup
+data/enemies/enemy2/pipyaka_10.png 120000000 data/enemies/enemy2/pipyaka_09.png 120000000 data/enemies/enemy2/pipyaka_08.png 120000000 data/enemies/enemy2/pipyaka_07.png 120000000
+
+enemy2_rotate_righttodown
+data/enemies/enemy2/pipyaka_10.png 120000000 data/enemies/enemy2/pipyaka_11.png 120000000 data/enemies/enemy2/pipyaka_12.png 120000000 data/enemies/enemy2/pipyaka_01.png 120000000
+
+enemy2_rotate_uptoleft
+data/enemies/enemy2/pipyaka_07.png 120000000 data/enemies/enemy2/pipyaka_06.png 120000000 data/enemies/enemy2/pipyaka_05.png 120000000 data/enemies/enemy2/pipyaka_04.png 120000000
+
+enemy2_rotate_uptoright
+data/enemies/enemy2/pipyaka_07.png 120000000 data/enemies/enemy2/pipyaka_08.png 120000000 data/enemies/enemy2/pipyaka_09.png 120000000 data/enemies/enemy2/pipyaka_10.png 120000000
+
+enemy2_rotate_downtoleft
+data/enemies/enemy2/pipyaka_01.png 120000000 data/enemies/enemy2/pipyaka_02.png 120000000 data/enemies/enemy2/pipyaka_03.png 120000000 data/enemies/enemy2/pipyaka_04.png 120000000
+
+enemy2_rotate_downtoright
+data/enemies/enemy2/pipyaka_01.png 120000000 data/enemies/enemy2/pipyaka_12.png 120000000 data/enemies/enemy2/pipyaka_11.png 120000000 data/enemies/enemy2/pipyaka_10.png 120000000
+
+
+enemy2_runleft
+data/enemies/enemy2/pipyaka_18.png 120000000 data/enemies/enemy2/pipyaka_19.png 120000000 data/enemies/enemy2/pipyaka_20.png 120000000 data/enemies/enemy2/pipyaka_21.png 120000000 data/enemies/enemy2/pipyaka_22.png 120000000
+
+enemy2_runright
+data/enemies/enemy2/pipyaka_28.png 120000000 data/enemies/enemy2/pipyaka_29.png 120000000 data/enemies/enemy2/pipyaka_30.png 120000000 data/enemies/enemy2/pipyaka_31.png 120000000 data/enemies/enemy2/pipyaka_32.png 120000000
+
+enemy2_runup
+data/enemies/enemy2/pipyaka_23.png 120000000 data/enemies/enemy2/pipyaka_24.png 120000000 data/enemies/enemy2/pipyaka_25.png 120000000 data/enemies/enemy2/pipyaka_26.png 120000000 data/enemies/enemy2/pipyaka_27.png 120000000
+
+enemy2_rundown
+data/enemies/enemy2/pipyaka_13.png 120000000 data/enemies/enemy2/pipyaka_14.png 120000000 data/enemies/enemy2/pipyaka_15.png 120000000 data/enemies/enemy2/pipyaka_16.png 120000000 data/enemies/enemy2/pipyaka_17.png 120000000
+
+enemy2_atk_xuoi
+data/enemies/enemy2/pipyaka_01.png 50000000 data/enemies/enemy2/pipyaka_02.png 50000000 data/enemies/enemy2/pipyaka_03.png 50000000 data/enemies/enemy2/pipyaka_04.png 50000000 data/enemies/enemy2/pipyaka_05.png 50000000 data/enemies/enemy2/pipyaka_06.png 50000000 data/enemies/enemy2/pipyaka_07.png 50000000 data/enemies/enemy2/pipyaka_08.png 50000000 data/enemies/enemy2/pipyaka_09.png 50000000 data/enemies/enemy2/pipyaka_10.png 50000000 data/enemies/enemy2/pipyaka_11.png 50000000 data/enemies/enemy2/pipyaka_12.png 50000000
+
+enemy2_atk_nguoc
+data/enemies/enemy2/pipyaka_07.png 50000000 data/enemies/enemy2/pipyaka_06.png 50000000 data/enemies/enemy2/pipyaka_05.png 50000000 data/enemies/enemy2/pipyaka_04.png 50000000 data/enemies/enemy2/pipyaka_03.png 50000000 data/enemies/enemy2/pipyaka_02.png 50000000 data/enemies/enemy2/pipyaka_01.png 50000000 data/enemies/enemy2/pipyaka_12.png 50000000 data/enemies/enemy2/pipyaka_11.png 50000000 data/enemies/enemy2/pipyaka_10.png 50000000 data/enemies/enemy2/pipyaka_09.png 50000000 data/enemies/enemy2/pipyaka_08.png 50000000
+
+
+
+enemy3_runleft
+data/enemies/enemy3/runleft0.png 120000000 data/enemies/enemy3/runleft1.png 120000000 data/enemies/enemy3/runleft2.png 120000000 data/enemies/enemy3/runleft3.png 120000000
+
+enemy3_runright
+data/enemies/enemy3/runright0.png 120000000 data/enemies/enemy3/runright1.png 120000000 data/enemies/enemy3/runright2.png 120000000 data/enemies/enemy3/runright3.png 120000000
+
+enemy3_runup
+data/enemies/enemy3/runup0.png 120000000 data/enemies/enemy3/runup1.png 120000000 data/enemies/enemy3/runup2.png 120000000 data/enemies/enemy3/runup3.png 120000000
+
+enemy3_rundown
+data/enemies/enemy3/rundown0.png 120000000 data/enemies/enemy3/rundown1.png 120000000 data/enemies/enemy3/rundown2.png 120000000 data/enemies/enemy3/rundown3.png 120000000
+
+enemy3_idleleft
+data/enemies/enemy3/runleft0.png 120000000
+
+enemy3_idleright
+data/enemies/enemy3/runright0.png 120000000
+
+enemy3_idleup
+data/enemies/enemy3/runup0.png 120000000
+
+enemy3_idledown
+data/enemies/enemy3/rundown0.png 120000000
+
+
+enemy3_atkleft
+data/enemies/enemy3/runleft0.png 60000000 data/enemies/enemy3/atk3.png 60000000 data/enemies/enemy3/runleft0.png 60000000 data/enemies/enemy3/atk2.png 60000000
+
+enemy3_atkright
+data/enemies/enemy3/runright0.png 60000000 data/enemies/enemy3/atk6.png 60000000 data/enemies/enemy3/runright0.png 60000000 data/enemies/enemy3/atk8.png 60000000
+
+enemy3_atkup
+data/enemies/enemy3/runup0.png 60000000 data/enemies/enemy3/atk5.png 60000000 data/enemies/enemy3/runup0.png 60000000 data/enemies/enemy3/atk4.png 60000000
+
+enemy3_atkdown
+data/enemies/enemy3/rundown0.png 60000000 data/enemies/enemy3/atk7.png 60000000 data/enemies/enemy3/rundown0.png 60000000 data/enemies/enemy3/atk1.png 60000000
+
+
+enemy4_atk
+data/enemies/enemy4/SlimeKing_Walk_0.png 120000000 data/enemies/enemy4/SlimeKing_Walk_1.png 120000000 data/enemies/enemy4/SlimeKing_Walk_2.png 120000000 data/enemies/enemy4/SlimeKing_Walk_3.png 120000000
+
+enemy4_death
+data/enemies/enemy4/death0.png 120000000 data/enemies/enemy4/death1.png 120000000 data/enemies/enemy4/death2.png 120000000 data/enemies/enemy4/death3.png 120000000
+
+
+bullet01
+data/bullets/bullet1/bullet1_01.png 120000000
+
+bullet02_l
+data/bullets/bullet2/bullet2_04.png 70000000 data/bullets/bullet2/bullet2_05.png 70000000 data/bullets/bullet2/bullet2_06.png 70000000
+
+bullet02_r
+data/bullets/bullet2/bullet2_01.png 70000000 data/bullets/bullet2/bullet2_02.png 70000000 data/bullets/bullet2/bullet2_03.png 70000000
+
+bullet02_u
+data/bullets/bullet2/bullet2_07.png 70000000 data/bullets/bullet2/bullet2_08.png 70000000 data/bullets/bullet2/bullet2_09.png 70000000
+
+bullet02_d
+data/bullets/bullet2/bullet2_10.png 70000000 data/bullets/bullet2/bullet2_11.png 70000000 data/bullets/bullet2/bullet2_12.png 70000000
+
+bullet03
+data/bullets/bullet3/bullet03.png 120000000
+
+bullet04_enemy4
+data/bullets/bullet4/blamefire1.png 120000000 data/bullets/bullet4/blamefire3.png 120000000 data/bullets/bullet4/blamefire4.png 120000000
+
+bullet07
+data/bullets/bullet7/redfire1.png 120000000 data/bullets/bullet7/redfire2.png 120000000 data/bullets/bullet7/redfire3.png 120000000 data/bullets/bullet7/redfire4.png 120000000
+
+bullet05
+data/bullets/bullet5/heart.png 70000000
+
+bullet06
+data/bullets/bullet6/redfire5.png 120000000 data/bullets/bullet6/redfire6.png 120000000
+
+itemheart
+data/item/itemHeart.png 120000000
+
+itemdame
+data/item/itemDame.png 120000000
+
+itemhp
+data/item/itemHP.png 120000000
