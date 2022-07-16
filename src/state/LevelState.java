@@ -16,10 +16,10 @@ public class LevelState extends State{
     private Graphics graphicsPaint;
 	private static int currentChoice = -1;
 	
-	private Image image = Toolkit.getDefaultToolkit().getImage("data/back-win.png");
+	private Image image = Toolkit.getDefaultToolkit().getImage("data/backg2.jpg");
 	
 	private Color titleColor = new Color(255, 0, 0);
-	private Font titleFont = new Font("Century Gothic", Font.PLAIN, 80);
+	private Font titleFont = new Font("Century Gothic", Font.PLAIN, 100);
 	private Font font = new Font("Arial", Font.PLAIN, 40);
 	private String[] options = {
 			"Easy",
@@ -51,7 +51,7 @@ public class LevelState extends State{
 		
 		graphicsPaint.setColor(titleColor);
 		graphicsPaint.setFont(titleFont);
-		graphicsPaint.drawString("Selected Level", 180, 135);
+		graphicsPaint.drawString("RPG Game", 180, 135);
 		
 		graphicsPaint.setFont(font);
 		for(int i = 0; i < options.length; i++) {
@@ -60,7 +60,7 @@ public class LevelState extends State{
 			} else {
 				graphicsPaint.setColor(Color.BLUE);
 			}
-			graphicsPaint.drawString(options[i], GameFrame.SCREEN_WIDTH/2 - 100, 290 + i * 65);
+			graphicsPaint.drawString(options[i], GameFrame.SCREEN_WIDTH/2 - 100, 270 + i * 65);
 		}
     }
     
