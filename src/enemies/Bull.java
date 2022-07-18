@@ -160,9 +160,14 @@ public class Bull extends Enemy {
     	isAttack = true;
     	lastAttackTime = System.nanoTime();
     	getGameWorld().getPlayer().beHurt(getDamage());
-	}   
-    
-    public void Update(){
+	}
+
+	@Override
+	public void defence() {
+
+	}
+
+	public void Update(){
         super.Update(); 
         
         if(isAttack) {

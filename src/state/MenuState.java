@@ -75,14 +75,14 @@ public class MenuState extends State {
     public void setPressedButton(int code) {
         switch(code) {
         
-            case KeyEvent.VK_DOWN: 
+            case KeyEvent.VK_S:
                 currentChoice++;
                 if(currentChoice >= options.length) {
                     currentChoice = 0;
                 }
                 break;
                 
-            case KeyEvent.VK_UP: 
+            case KeyEvent.VK_W:
                 currentChoice--;
                 if(currentChoice < 0) {
                     currentChoice = options.length - 1;

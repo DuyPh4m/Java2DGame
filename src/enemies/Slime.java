@@ -32,8 +32,13 @@ public class Slime extends Enemy {
     
     @Override
     public void attack() {}
-    
-	public void shooting() {   	                 
+
+    @Override
+    public void defence() {
+
+    }
+
+    public void shooting() {
 
 		int dame = 5;
 		if(LevelState.getCurrentChoice() == 1)

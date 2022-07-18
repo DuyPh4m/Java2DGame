@@ -53,6 +53,11 @@ public class ItemHP extends ParticularObject {
 	public void attack() {}
 
 	@Override
+	public void defence() {
+
+	}
+
+	@Override
 	public void shooting() {}
 
 	public int getBufHP() {

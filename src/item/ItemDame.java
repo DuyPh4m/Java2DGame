@@ -17,7 +17,7 @@ public class ItemDame extends ParticularObject {
 		super(x, y, width, height, 1, gameWorld);
 		dame = DataLoader.getInstance().getAnimation("itemdame");
 		setTeamType(ENEMY_TEAM);
-		setDamage(0);
+//		setDamage(0);
 		bufDame = 1;
 	}
 
@@ -49,6 +49,9 @@ public class ItemDame extends ParticularObject {
 	public void attack() {}
 
 	@Override
+	public void defence() {}
+
+	@Override
 	public void shooting() {}
 
 	public int getBufDame() {
@@ -59,7 +62,6 @@ public class ItemDame extends ParticularObject {
 		this.bufDame = bufDame;
 	}
 
-	
     
 }
 

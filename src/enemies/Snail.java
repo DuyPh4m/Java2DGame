@@ -79,6 +79,11 @@ public class Snail extends Enemy {
 	}
 
 	@Override
+	public void defence() {
+
+	}
+
+	@Override
 	public void shooting() {}
     @Override
     public void run() {

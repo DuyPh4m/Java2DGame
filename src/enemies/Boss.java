@@ -105,6 +105,11 @@ public class Boss extends Enemy {
         }  
     }
 
+	@Override
+	public void defence() {
+
+	}
+
 	public void atk1() {
 		RedFlame1 redFire1 = new RedFlame1(getPosX(), getGameWorld().getPlayer().getPosY(), 500, 50, getGameWorld());
 		RedFlame1 redFire2 = new RedFlame1(getPosX(), getGameWorld().getPlayer().getPosY(), 500, 50, getGameWorld());

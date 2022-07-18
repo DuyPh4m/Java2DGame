@@ -76,7 +76,12 @@ public class DarkDuck extends Enemy {
 		@Override
 		public void attack() {}
 
-		@Override
+	@Override
+	public void defence() {
+
+	}
+
+	@Override
 		public void shooting() {
 			if(!isShooting) {
 			    DuckBullet[] bullet  = new DuckBullet[8];

@@ -351,13 +351,11 @@ public class GameWorldState extends State {
                 break;
                 
             case GAMEWIN:
-            	Image winimage = Toolkit.getDefaultToolkit().getImage("data/win_game.png");
-//            	g2.setColor(Color.BLACK);
-//                g2.fillRect(0, 0, GameFrame.SCREEN_WIDTH, GameFrame.SCREEN_HEIGHT);
-//                g2.setColor(Color.WHITE);
-//                g2.setFont(new Font("TimesRoman", Font.PLAIN, 40));
-//                g2.drawString("All monster have been slain, mission completed!", 100, 300);
-            	g2.drawImage(winimage, 0, 0, GameFrame.SCREEN_WIDTH, GameFrame.SCREEN_HEIGHT, null);
+            	g2.setColor(Color.BLACK);
+                g2.fillRect(0, 0, GameFrame.SCREEN_WIDTH, GameFrame.SCREEN_HEIGHT);
+                g2.setColor(Color.WHITE);
+                g2.setFont(new Font("TimesRoman", Font.PLAIN, 40));
+                g2.drawString("All monster have been slain, mission completed!", 100, 300);
                 break;
                 
             case GAMEPLAY:
@@ -374,6 +372,7 @@ public class GameWorldState extends State {
                 g2.drawString("HP: " + player.getBlood()+"/" + player.getMaxHP(), 125, 80 );
                 g2.setColor(Color.YELLOW);
                 g2.drawString("Dame: " + player.getCurrentDame(), 20, 100);
+                g2.drawString("Def: ",125,100);
                 g2.setColor(Color.BLUE);
                 g2.drawString("Enemies: " + particularObjectManager.getCount(), 20, 120);
                 for(int i = 0; i < player.getNumberOfLife(); i++){
@@ -382,13 +381,13 @@ public class GameWorldState extends State {
                 break;
                 
             case GAMEOVER:
-//                g2.setColor(Color.BLACK);
-//                g2.fillRect(0, 0, GameFrame.SCREEN_WIDTH, GameFrame.SCREEN_HEIGHT);
-//                g2.setColor(Color.WHITE);
-//                g2.setFont(new Font("TimesRoman", Font.PLAIN, 40));
-//                g2.drawString("GAME OVER!", 350, 300);
-            	Image losegame = Toolkit.getDefaultToolkit().getImage("data/losegame.png");
-            	g2.drawImage(losegame, 0, 0, GameFrame.SCREEN_WIDTH, GameFrame.SCREEN_HEIGHT, null);
+                g2.setColor(Color.BLACK);
+                g2.fillRect(0, 0, GameFrame.SCREEN_WIDTH, GameFrame.SCREEN_HEIGHT);
+                g2.setColor(Color.WHITE);
+                g2.setFont(new Font("TimesRoman", Font.PLAIN, 40));
+                g2.drawString("GAME OVER!", 350, 300);
+//            	Image losegame = Toolkit.getDefaultToolkit().getImage("data/losegame.png");
+//           	g2.drawImage(losegame, 0, 0, GameFrame.SCREEN_WIDTH, GameFrame.SCREEN_HEIGHT, null);
 
                 break;
 
@@ -406,22 +405,22 @@ public class GameWorldState extends State {
     @Override
     public void setPressedButton(int code) {
        switch(code){
-	        case KeyEvent.VK_UP:
+	        case KeyEvent.VK_W:
 	        	player.setDirection(ParticularObject.UP_DIR);
 	        	player.run();
 	            break;
             
-	        case KeyEvent.VK_DOWN:
+           case KeyEvent.VK_S:
 	        	player.setDirection(ParticularObject.DOWN_DIR);
 	        	player.run();
 	            break;
 	            
-	        case KeyEvent.VK_RIGHT:
+	        case KeyEvent.VK_D:
 	        	player.setDirection(ParticularObject.RIGHT_DIR);
 	        	player.run();
 	            break;
 	            
-	        case KeyEvent.VK_LEFT:
+	        case KeyEvent.VK_A:
 	        	player.setDirection(ParticularObject.LEFT_DIR);
 	        	player.run();
 	            break;
@@ -450,7 +449,7 @@ public class GameWorldState extends State {
 	        case KeyEvent.VK_SPACE:
 	        	player.attack();
 	            break;	 
-	        case KeyEvent.VK_A:
+           case KeyEvent.VK_J:
 	        	player.shooting();
 	        	break;
         }
@@ -460,19 +459,19 @@ public class GameWorldState extends State {
     public void setReleasedButton(int code) {
         switch(code){
             
-            case KeyEvent.VK_UP:            	
+            case KeyEvent.VK_W:
             		player.stopRun();
                 break;
                 
-            case KeyEvent.VK_DOWN:           	
+            case KeyEvent.VK_S:
             		player.stopRun();
                 break;
                 
-            case KeyEvent.VK_RIGHT:                
+            case KeyEvent.VK_D:
             		player.stopRun();
                 break;
                 
-            case KeyEvent.VK_LEFT:                
+            case KeyEvent.VK_A:
             		player.stopRun();
                 break;
                 

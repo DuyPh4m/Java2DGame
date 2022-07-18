@@ -26,9 +26,11 @@ public class Player extends Human {
     private long lastHealTime;
     private boolean isShooting = false;
     private boolean isAttack = false;
+    private boolean isDefend = false;
     private boolean isRuning = false;
     private int numberOfLife;
     private int currentDame;
+    private int currentDef;
     public Player(float x, float y, GameWorldState gameWorld) {
         super(x, y, 60, 60, 300, gameWorld);
         int temp = LevelState.getCurrentChoice();
@@ -239,7 +241,7 @@ public class Player extends Human {
     @Override
     public void attack() {
 		if(!isAttack){
-			System.out.println("attack1");
+//			System.out.println("attack1");
 			
             Sword sword = new Sword(getPosX(), getPosY(), getGameWorld());
             sword.setDamage(currentDame);
@@ -269,6 +271,12 @@ public class Player extends Human {
 		}
     }
 
+    @Override
+    public void defence() {
+
+    }
+
+
     public void heal() {
     	if(System.nanoTime() - lastHealTime > 300000000
     	 && getBlood() < 100) {
@@ -293,6 +301,8 @@ public class Player extends Human {
 	public void setCurrentDame(int currentDame) {
 		this.currentDame = currentDame;
 	}
-    
-	
+
+    public int getCurrentDef() {return currentDef; }
+
+    public void setCurrentDef(int currentDef) { this.currentDef = currentDef; }
 }

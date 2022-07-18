@@ -54,7 +54,12 @@ public class DuckBullet extends Bullet {
     @Override
     public void attack() {}
 
-	@Override
+    @Override
+    public void defence() {
+
+    }
+
+    @Override
 	public void shooting() {}
 
 }

@@ -152,6 +152,11 @@ public class LittleGirl extends Enemy {
 	}
 
 	@Override
+	public void defence() {
+
+	}
+
+	@Override
 	public void shooting() {}
 
 	@Override

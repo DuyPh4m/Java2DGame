@@ -19,6 +19,7 @@ public class HelpState extends State{
 	private Font font = new Font("Arial", Font.PLAIN, 40);
 	private String[] options = {
 			"Menu",
+            "Tutorial",
 			"Quit"
 		};
 		
@@ -65,14 +66,14 @@ public class HelpState extends State{
     public void setPressedButton(int code) {
         switch(code) {
         
-            case KeyEvent.VK_DOWN: 
+            case KeyEvent.VK_S:
                 currentChoice++;
                 if(currentChoice >= options.length) {
                     currentChoice = 0;
                 }
                 break;
                 
-            case KeyEvent.VK_UP: 
+            case KeyEvent.VK_W:
                 currentChoice--;
                 if(currentChoice < 0) {
                     currentChoice = options.length - 1;
@@ -96,6 +97,8 @@ public class HelpState extends State{
                 break; 
             case 1:
             	System.exit(1);
+            case 2:
+
         }
     }
 }

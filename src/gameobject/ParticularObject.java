@@ -30,7 +30,9 @@ public abstract class ParticularObject extends GameObject {
     private float speedX;
     private float speedY;
     private int blood;
-    private int damage;    
+    private int damage;
+
+    private int defence;
     private int direction;
 
     
@@ -91,6 +93,9 @@ public abstract class ParticularObject extends GameObject {
             return damage;
     }
 
+    public void setDefence(int defence) { this.defence = defence; }
+
+    public int getDefence(){ return defence; }
     public void setSpeedX(float speedX){
         this.speedX = speedX;
     }
@@ -142,7 +147,7 @@ public abstract class ParticularObject extends GameObject {
     }
     
     public abstract void attack();
-    
+    public abstract void defence();
     public abstract void shooting();
     
     public boolean isObjectOutOfCameraView(){
